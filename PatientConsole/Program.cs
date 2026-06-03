@@ -57,8 +57,7 @@ internal class Program
                 $"Age: {patient.Age} | " +
                 $"City: {patient.City} | " +
                 $"Active: {patient.Active}");
-            string json = JsonConvert.SerializeObject(patient, Formatting.Indented);
-            Console.WriteLine(json);
+
         }
         //string json = JsonConvert.SerializeObject(patient, Formatting.Indented);
         Console.WriteLine();
